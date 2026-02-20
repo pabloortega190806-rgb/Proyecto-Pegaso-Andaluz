@@ -474,7 +474,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900">Ubicación</h4>
-                  <p className="text-gray-600">Carretera de la Sierra, Km 12<br/>18000, Andalucía, España</p>
+                  <p className="text-gray-600">Avenida de Portugal, s/n<br/>18000, Andalucía, España</p>
                 </div>
               </div>
 
@@ -484,7 +484,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900">Teléfono / WhatsApp</h4>
-                  <p className="text-gray-600">+34 900 123 456</p>
+                  <p className="text-gray-600">+34 652 924 742</p>
                   <p className="text-sm text-primary mt-1">Atención personalizada</p>
                 </div>
               </div>
@@ -591,7 +591,7 @@ const Footer = () => {
 const WhatsAppButton = () => {
   return (
     <a 
-      href="https://wa.me/34900123456" 
+      href="https://wa.me/34652924742" 
       target="_blank" 
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all transform hover:scale-110 flex items-center gap-2 group"
