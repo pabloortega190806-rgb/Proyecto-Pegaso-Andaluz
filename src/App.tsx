@@ -234,25 +234,25 @@ const Services = () => {
   const services = [
     {
       title: "Rutas Ecuestres",
-      description: "Explora los más de 35 km de rutas autorizadas por la Ribera del Guadaíra. Una experiencia única de turismo activo en Sevilla.",
+      description: "Acceso directo a 35 km de rutas autorizadas por la Ribera del Guadaíra, pasando por los Molinos de Alcalá y el Parque Oromana. Seguro incluido.",
       icon: <MapPin size={20} className="text-white" />,
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBsnZxwJruTx0uK45aS3_-nmH0Y_DWc9Lu94-CcPf2dHamqIEGeTmt1EiVM-w4e8GF0ONLR6S3XPgElHsaZ9QhRX5zCfSGihsaANkklAD9pzy5BlYuJBEh8tmQCQyPbGjGGr3fl90K-B3aItG3nhdwljLaT0aewQNJfMpGiibLdp0AXKffCm_ZpIGLUxIwzaCi9k6wdcMBZB1L1RrXXsA4Gcy2PzpgqLxUlFpy4kDQ8Ak5HMVsU_1b8PjcXezsxsVNHvyH8Y5Nv0aM"
     },
     {
       title: "Hípica Inclusiva",
-      description: "Centro adaptado para personas con diversidad funcional. Contamos con monitores titulados y equipamiento especial (grúas y monturas adaptadas).",
+      description: "Instalaciones 100% accesibles con grúa de transferencia, rampas y monturas adaptadas. Personal titulado en equitación adaptada.",
       icon: <Accessibility size={20} className="text-white" />,
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDO_NKdpVZA9Ib_Yl3xIZ-4k27YXJp_nguLqWKIUEa79sviCyCix8LLl-vi_U-M9u2Wx86vyftg0MpHfHuCom4LOc7RVkx-8OAdgw5IhttyULziCxHyVo4fdXnC_rSvxeHqQUbJCFWOXbrTaxLW0YcedOJVYLbf-6U3D0FSrtd7gxWP5AsSIqFRNgSI562QGmuPJk7fdzaPH9JAt_aVSXCHuJkqIwVMwx8xMP4uZWOq5J1LZhzJD1iwR1-BKhduB4CBHGTb0bgcyGU"
     },
     {
       title: "Escuela de Equitación",
-      description: "Clases para todos los niveles basadas en el bienestar animal y la seguridad. Desde iniciación hasta alta escuela.",
+      description: "Clases para todos los niveles basadas en el bienestar animal y la seguridad. Grupos reducidos y metodología sin violencia.",
       icon: <School size={20} className="text-white" />,
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBpQlqQnDSLR6crSqKoYL6GH2jMW8ZpN55v3kOqWVtjX72zVvtvG11YpgokvYAm7ZtX2FDnG5ZTo-euuT__FZQ2vhOnz1aOwsCveHtehLh0tj7Zzi9lMz_RGUc6VjQ0LoXM7vGwYkRu3IaLzavL_EKE_BfvqDCAI6JRNKYDTIuDZLkl8hg-5ZKyBc00JfeQiC_qTEWmDJrIM9uGxCmi48n2N_LEar-tHsLhB7IQ5CxEUrE1MKZedMdIIW0SpaeCT0wjWNKMwKbvkwg"
     },
     {
       title: "Aula-Establo",
-      description: "Un espacio educativo donde aprender sobre etología, cuidados y la vida diaria del caballo en un entorno natural.",
+      description: "Aula formativa para 30 alumnos con material audiovisual. Un espacio para aprender etología y cuidados en un entorno natural.",
       icon: <Home size={20} className="text-white" />,
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC9wrcTynfKFvgPy3NBkGzzsQFqHh6ltAVmdPILUeuzV_OHcUNYV4J5m8EkCNBntg1bt62QTE18BsqRMBq7JTP6EQFwpZcXamnIaK6OmZuFEDoUZQYtb9w49QkBhGkrMkPD1F7E_fVmOro86JbAWBfjDSYcKCz2weh0lKzbv4ZKXYwQDuNCYOOXTrnFl9Pfl2eCNnGsuJ7rFgNJOADvCVdvY26eD-DKWL7NVvS3PturmZawfG-E6oQVyvMZxQ4uJmGPcfVpm1CdWxA"
     }
@@ -292,15 +292,15 @@ const Facilities = () => {
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="text-primary shrink-0 mt-1" />
-                <span className="text-gray-700">Pista profesional de 1.200m² con suelo técnico.</span>
+                <span className="text-gray-700"><strong>Pista de Entrenamiento:</strong> 1.200 m² con iluminación LED de bajo consumo para actividad nocturna.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="text-primary shrink-0 mt-1" />
-                <span className="text-gray-700">Boxes amplios y ventilados con bebederos automáticos.</span>
+                <span className="text-gray-700"><strong>Alojamiento:</strong> 400 m² de cuadras con 20 boxes individuales ventilados.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="text-primary shrink-0 mt-1" />
-                <span className="text-gray-700">Entorno natural con acceso directo al Parque Oromana.</span>
+                <span className="text-gray-700"><strong>Zonas de Pasto:</strong> 5 hectáreas de terreno propio para el descanso y libertad de los animales.</span>
               </li>
             </ul>
             <a href="#contact" className="px-6 py-3 bg-gray-900 text-white rounded-lg font-bold hover:bg-gray-800 transition-colors">
@@ -346,21 +346,21 @@ const About = () => {
               En <span className="text-primary font-bold">Pegaso Andaluz</span>, creemos que la equitación es más que un deporte; es un diálogo silencioso entre dos seres vivos.
             </p>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Fundado por <strong>Pablo Ortega</strong>, nuestro centro nace de la pasión por preservar la pureza de la doma clásica y fomentar una conexión profunda y respetuosa con el animal, lo que llamamos la <em>"Conexión Pegaso"</em>.
+              Fundado por <strong>Pablo Ortega</strong> (Técnico en Guía en el Medio Natural), nuestro centro se basa en la metodología <em>"Conexión Pegaso"</em>: bienestar animal, cero violencia y grupos reducidos para un aprendizaje real.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="flex items-start gap-3">
                 <Award className="text-primary text-3xl" />
                 <div>
-                  <h4 className="font-bold text-gray-900">Excelencia</h4>
-                  <p className="text-sm text-gray-500">Instructores certificados.</p>
+                  <h4 className="font-bold text-gray-900">Impacto Social</h4>
+                  <p className="text-sm text-gray-500">Colaboramos con colegios y asociaciones locales.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Heart className="text-primary text-3xl" />
                 <div>
                   <h4 className="font-bold text-gray-900">Bienestar</h4>
-                  <p className="text-sm text-gray-500">Cuidado integral 24/7.</p>
+                  <p className="text-sm text-gray-500">Los caballos son compañeros, no herramientas.</p>
                 </div>
               </div>
             </div>
@@ -378,7 +378,7 @@ const PricingBanner = () => {
         <div>
           <h3 className="font-serif text-3xl font-bold mb-2">Tarifas Informativas</h3>
           <p className="text-white/90 text-lg">
-            Rutas desde <span className="font-bold text-2xl bg-white/20 px-2 rounded">20€/hora</span>. Consulta nuestros bonos mensuales.
+            Compromiso de tarifas accesibles (20% bajo media). Rutas desde <span className="font-bold text-2xl bg-white/20 px-2 rounded">20€/hora</span>.
           </p>
         </div>
         <a 
@@ -474,7 +474,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-gray-900">Ubicación</h4>
-                  <p className="text-gray-600">Avenida de Portugal, s/n<br/>18000, Andalucía, España</p>
+                  <p className="text-gray-600">Avenida de Portugal, s/n<br/>(Pulmón verde de Alcalá), 41500, Andalucía</p>
                 </div>
               </div>
 
